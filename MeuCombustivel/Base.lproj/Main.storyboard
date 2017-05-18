@@ -63,6 +63,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="ySa-x9-oC8">
+                        <barButtonItem key="leftBarButtonItem" title="SignOut" id="e1e-jo-HO0">
+                            <connections>
+                                <action selector="signOut:" destination="9xA-Ic-q8B" id="faT-XB-WcF"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="8S3-oS-mFD">
                             <connections>
                                 <segue destination="kBi-Js-mnq" kind="show" identifier="novoPostoSegue" id="cR0-Rn-WiE"/>
@@ -352,7 +357,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3Ut-vY-uw0" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="JBI-gk-ln4"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dtk-2q-X7p">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Dtk-2q-X7p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

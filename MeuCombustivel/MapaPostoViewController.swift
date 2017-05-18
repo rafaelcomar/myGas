@@ -62,20 +62,9 @@ class MapaPostoViewController: UIViewController , MKMapViewDelegate {
             let formatter = DateFormatter()
             formatter.dateFormat = "yyyy/MM/dd HH:mm"
             let someDateTime = formatter.date(from: data)
-
             
-//            if Date().addingTimeInterval("200") {
-//                self.dataHoraTxtField.tintColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
-//            }
-            
+            self.title = editarPosto.nome
 
-
-            //            self.nomeTxtField.text = editarPosto.nome
-            //            self.latitudeTxtField.text = editarPosto.latitude
-            //            self.longitudeTxtField.text = editarPosto.longitude
-            //            self.map.delegate = self
-            //            self.map.showsUserLocation = true
-            //            checkLocationAuthorizationStatus()
             }
             locationManager.requestWhenInUseAuthorization()
         

@@ -13,16 +13,26 @@ class ListaPostosTableViewController: UITableViewController, DetalhesPostoViewCo
 
     var ref: FIRDatabaseReference!
     
+   
     var postos:[Posto] = [Posto]()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.leftBarButtonItem = self.editButtonItem
+//        self.navigationItem.leftBarButtonItem = 
         ref = FIRDatabase.database().reference()
         self.setupRealtimeDatabaseEvents()
         
         
+    }
+    @IBAction func signOut(_ sender: UIBarButtonItem) {
+        let firebaseAuth = FIRAuth.auth()
+        do {
+            try firebaseAuth?.signOut()
+            self.dismiss(animated: true, completion: nil)
+        } catch let signOutError as NSError {
+            self.present(buildAlertController(withMessage: signOutError.localizedDescription), animated: true, completion: nil)
+        }
     }
     
     func setupRealtimeDatabaseEvents() -> Void {
@@ -127,10 +137,10 @@ class ListaPostosTableViewController: UITableViewController, DetalhesPostoViewCo
 
     
     // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
+//    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+//        // Return false if you do not want the specified item to be editable.
+//        return true
+//    }
     
 
     
@@ -143,7 +153,7 @@ class ListaPostosTableViewController: UITableViewController, DetalhesPostoViewCo
             
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-            let posto = self.postos[indexPath.row]
+//            let posto = self.postos[indexPath.row]
         }    
     }
  

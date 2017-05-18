@@ -72,7 +72,12 @@
                             <outlet property="delegate" destination="9xA-Ic-q8B" id="MNr-xW-j7A"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Postos Próximos" id="ySa-x9-oC8" colorLabel="IBBuiltInLabel-Orange">
+                    <navigationItem key="navigationItem" title="Postos Próximos" id="ySa-x9-oC8">
+                        <barButtonItem key="leftBarButtonItem" title="SignOut" id="e1e-jo-HO0">
+                            <connections>
+                                <action selector="signOut:" destination="9xA-Ic-q8B" id="faT-XB-WcF"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="8S3-oS-mFD">
                             <connections>
                                 <segue destination="kBi-Js-mnq" kind="show" identifier="novoPostoSegue" id="cR0-Rn-WiE"/>
@@ -83,7 +88,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMJ-GQ-1SK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1013.6" y="-655.32233883058473"/>
+            <point key="canvasLocation" x="958" y="-654"/>
         </scene>
         <!--Detalhes Posto View Controller-->
         <scene sceneID="1c4-pV-yFO">
@@ -382,7 +387,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="3Ut-vY-uw0" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="JBI-gk-ln4"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Dtk-2q-X7p">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dtk-2q-X7p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.95150582900000003" green="0.51286638340000001" blue="0.14916239279999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

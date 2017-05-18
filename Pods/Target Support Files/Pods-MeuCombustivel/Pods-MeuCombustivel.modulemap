@@ -1,0 +1,6 @@
+framework module Pods_MeuCombustivel {
+  umbrella header "Pods-MeuCombustivel-umbrella.h"
+
+  export *
+  module * { export * }
+}

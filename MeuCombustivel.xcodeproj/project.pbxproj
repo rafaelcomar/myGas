@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531C9C401EBBE06A0065E3DC /* PostoAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C9C3F1EBBE06A0065E3DC /* PostoAnnotation.swift */; };
+		5329C8361EB4005F00A47AF8 /* ListaPostosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329C8351EB4005F00A47AF8 /* ListaPostosTableViewController.swift */; };
+		5329C8381EB400E000A47AF8 /* Posto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329C8371EB400E000A47AF8 /* Posto.swift */; };
 		537766C51E9859E500C7F88D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537766C41E9859E500C7F88D /* AppDelegate.swift */; };
 		537766C71E9859E500C7F88D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537766C61E9859E500C7F88D /* ViewController.swift */; };
 		537766CA1E9859E600C7F88D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537766C81E9859E600C7F88D /* Main.storyboard */; };
 		537766CC1E9859E600C7F88D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537766CB1E9859E600C7F88D /* Assets.xcassets */; };
 		537766CF1E9859E600C7F88D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537766CD1E9859E600C7F88D /* LaunchScreen.storyboard */; };
+		537766D71E985A3400C7F88D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 537766D61E985A3400C7F88D /* GoogleService-Info.plist */; };
+		537BD04D1EB93C4300E07D46 /* MapaPostoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537BD04C1EB93C4300E07D46 /* MapaPostoViewController.swift */; };
+		53A47BF61EB403DA00AA1C39 /* DetalhesPostoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A47BF51EB403DA00AA1C39 /* DetalhesPostoViewController.swift */; };
+		53A47BF81EB408DC00AA1C39 /* PostoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A47BF71EB408DC00AA1C39 /* PostoTableViewCell.swift */; };
+		53A47BFA1EB4FD6900AA1C39 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A47BF91EB4FD6900AA1C39 /* LoginViewController.swift */; };
+		E7B520996E62C235242A80CB /* Pods_MeuCombustivel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129AB786C2F1AC9780A38867 /* Pods_MeuCombustivel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		129AB786C2F1AC9780A38867 /* Pods_MeuCombustivel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeuCombustivel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531C9C3F1EBBE06A0065E3DC /* PostoAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostoAnnotation.swift; sourceTree = "<group>"; };
+		5329C8351EB4005F00A47AF8 /* ListaPostosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaPostosTableViewController.swift; sourceTree = "<group>"; };
+		5329C8371EB400E000A47AF8 /* Posto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posto.swift; sourceTree = "<group>"; };
 		537766C11E9859E500C7F88D /* MeuCombustivel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuCombustivel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537766C41E9859E500C7F88D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		537766C61E9859E500C7F88D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,13 @@
 		537766CB1E9859E600C7F88D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		537766CE1E9859E600C7F88D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		537766D01E9859E600C7F88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537766D61E985A3400C7F88D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		537BD04C1EB93C4300E07D46 /* MapaPostoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaPostoViewController.swift; sourceTree = "<group>"; };
+		53A47BF51EB403DA00AA1C39 /* DetalhesPostoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesPostoViewController.swift; sourceTree = "<group>"; };
+		53A47BF71EB408DC00AA1C39 /* PostoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostoTableViewCell.swift; sourceTree = "<group>"; };
+		53A47BF91EB4FD6900AA1C39 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C984C87A7A9B6D4A64A15D06 /* Pods-MeuCombustivel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuCombustivel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeuCombustivel/Pods-MeuCombustivel.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4C088C41363E373F740ADE /* Pods-MeuCombustivel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuCombustivel.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeuCombustivel/Pods-MeuCombustivel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B520996E62C235242A80CB /* Pods_MeuCombustivel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				537766C31E9859E500C7F88D /* MeuCombustivel */,
 				537766C21E9859E500C7F88D /* Products */,
+				5526320FAAF481A3DFA55F7A /* Pods */,
+				9855EB6B1BA0C74014CF26CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +81,35 @@
 				537766C61E9859E500C7F88D /* ViewController.swift */,
 				537766C81E9859E600C7F88D /* Main.storyboard */,
 				537766CB1E9859E600C7F88D /* Assets.xcassets */,
+				537766D61E985A3400C7F88D /* GoogleService-Info.plist */,
 				537766CD1E9859E600C7F88D /* LaunchScreen.storyboard */,
 				537766D01E9859E600C7F88D /* Info.plist */,
+				5329C8351EB4005F00A47AF8 /* ListaPostosTableViewController.swift */,
+				5329C8371EB400E000A47AF8 /* Posto.swift */,
+				53A47BF51EB403DA00AA1C39 /* DetalhesPostoViewController.swift */,
+				53A47BF71EB408DC00AA1C39 /* PostoTableViewCell.swift */,
+				53A47BF91EB4FD6900AA1C39 /* LoginViewController.swift */,
+				537BD04C1EB93C4300E07D46 /* MapaPostoViewController.swift */,
+				531C9C3F1EBBE06A0065E3DC /* PostoAnnotation.swift */,
 			);
 			path = MeuCombustivel;
+			sourceTree = "<group>";
+		};
+		5526320FAAF481A3DFA55F7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C984C87A7A9B6D4A64A15D06 /* Pods-MeuCombustivel.debug.xcconfig */,
+				DB4C088C41363E373F740ADE /* Pods-MeuCombustivel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9855EB6B1BA0C74014CF26CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				129AB786C2F1AC9780A38867 /* Pods_MeuCombustivel.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 537766D31E9859E600C7F88D /* Build configuration list for PBXNativeTarget "MeuCombustivel" */;
 			buildPhases = (
+				15554A72B063FCE3998BE7DC /* [CP] Check Pods Manifest.lock */,
 				537766BD1E9859E500C7F88D /* Sources */,
 				537766BE1E9859E500C7F88D /* Frameworks */,
 				537766BF1E9859E500C7F88D /* Resources */,
+				A8941AED4292FD4B6F158A04 /* [CP] Embed Pods Frameworks */,
+				53B9BEF21EC03B8A1814AB45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				537766CF1E9859E600C7F88D /* LaunchScreen.storyboard in Resources */,
+				537766D71E985A3400C7F88D /* GoogleService-Info.plist in Resources */,
 				537766CC1E9859E600C7F88D /* Assets.xcassets in Resources */,
 				537766CA1E9859E600C7F88D /* Main.storyboard in Resources */,
 			);
@@ -131,13 +183,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15554A72B063FCE3998BE7DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53B9BEF21EC03B8A1814AB45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeuCombustivel/Pods-MeuCombustivel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8941AED4292FD4B6F158A04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeuCombustivel/Pods-MeuCombustivel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		537766BD1E9859E500C7F88D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A47BFA1EB4FD6900AA1C39 /* LoginViewController.swift in Sources */,
 				537766C71E9859E500C7F88D /* ViewController.swift in Sources */,
+				5329C8361EB4005F00A47AF8 /* ListaPostosTableViewController.swift in Sources */,
+				531C9C401EBBE06A0065E3DC /* PostoAnnotation.swift in Sources */,
+				537BD04D1EB93C4300E07D46 /* MapaPostoViewController.swift in Sources */,
 				537766C51E9859E500C7F88D /* AppDelegate.swift in Sources */,
+				53A47BF61EB403DA00AA1C39 /* DetalhesPostoViewController.swift in Sources */,
+				5329C8381EB400E000A47AF8 /* Posto.swift in Sources */,
+				53A47BF81EB408DC00AA1C39 /* PostoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +365,7 @@
 		};
 		537766D41E9859E600C7F88D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C984C87A7A9B6D4A64A15D06 /* Pods-MeuCombustivel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MeuCombustivel/Info.plist;
@@ -270,6 +378,7 @@
 		};
 		537766D51E9859E600C7F88D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4C088C41363E373F740ADE /* Pods-MeuCombustivel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MeuCombustivel/Info.plist;
@@ -299,6 +408,7 @@
 				537766D51E9859E600C7F88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

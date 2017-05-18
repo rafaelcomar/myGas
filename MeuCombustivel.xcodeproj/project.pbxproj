@@ -10,6 +10,8 @@
 		531C9C401EBBE06A0065E3DC /* PostoAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C9C3F1EBBE06A0065E3DC /* PostoAnnotation.swift */; };
 		5329C8361EB4005F00A47AF8 /* ListaPostosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329C8351EB4005F00A47AF8 /* ListaPostosTableViewController.swift */; };
 		5329C8381EB400E000A47AF8 /* Posto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5329C8371EB400E000A47AF8 /* Posto.swift */; };
+		535CC72A1ECE59E40067B8DA /* gas-icon-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 535CC7291ECE59E40067B8DA /* gas-icon-21.png */; };
+		535CC72C1ECE5D060067B8DA /* 08-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 535CC72B1ECE5D060067B8DA /* 08-512.png */; };
 		537766C51E9859E500C7F88D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537766C41E9859E500C7F88D /* AppDelegate.swift */; };
 		537766C71E9859E500C7F88D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537766C61E9859E500C7F88D /* ViewController.swift */; };
 		537766CA1E9859E600C7F88D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537766C81E9859E600C7F88D /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		531C9C3F1EBBE06A0065E3DC /* PostoAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostoAnnotation.swift; sourceTree = "<group>"; };
 		5329C8351EB4005F00A47AF8 /* ListaPostosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaPostosTableViewController.swift; sourceTree = "<group>"; };
 		5329C8371EB400E000A47AF8 /* Posto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posto.swift; sourceTree = "<group>"; };
+		535CC7291ECE59E40067B8DA /* gas-icon-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gas-icon-21.png"; path = "../../../../Downloads/gas-icon-21.png"; sourceTree = "<group>"; };
+		535CC72B1ECE5D060067B8DA /* 08-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "08-512.png"; path = "../../../../Downloads/08-512.png"; sourceTree = "<group>"; };
 		537766C11E9859E500C7F88D /* MeuCombustivel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuCombustivel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537766C41E9859E500C7F88D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		537766C61E9859E500C7F88D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				537766D01E9859E600C7F88D /* Info.plist */,
 				5329C8351EB4005F00A47AF8 /* ListaPostosTableViewController.swift */,
 				5329C8371EB400E000A47AF8 /* Posto.swift */,
+				535CC72B1ECE5D060067B8DA /* 08-512.png */,
+				535CC7291ECE59E40067B8DA /* gas-icon-21.png */,
 				53A47BF51EB403DA00AA1C39 /* DetalhesPostoViewController.swift */,
 				53A47BF71EB408DC00AA1C39 /* PostoTableViewCell.swift */,
 				53A47BF91EB4FD6900AA1C39 /* LoginViewController.swift */,
@@ -176,8 +182,10 @@
 			files = (
 				537766CF1E9859E600C7F88D /* LaunchScreen.storyboard in Resources */,
 				537766D71E985A3400C7F88D /* GoogleService-Info.plist in Resources */,
+				535CC72C1ECE5D060067B8DA /* 08-512.png in Resources */,
 				537766CC1E9859E600C7F88D /* Assets.xcassets in Resources */,
 				537766CA1E9859E600C7F88D /* Main.storyboard in Resources */,
+				535CC72A1ECE59E40067B8DA /* gas-icon-21.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
